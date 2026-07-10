@@ -1,0 +1,15 @@
+[
+  {
+    "id": "brook",
+    "title": "Brook",
+    "image": "images/brook_card.png",
+    "site": "https://github.com/jack-bbnk/brook-lang"
+  },
+
+  {
+    "id": "temple_of_wishes",
+    "title": "Temple of Wishes",
+    "image": "images/temple_of_wishes_card.png",
+    "site": "https://pigeon-s.itch.io/temple-of-wishes"
+  }
+]

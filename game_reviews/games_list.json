@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cyberpunk",
+    "title": "Cyberpunk 2077",
+    "image": "images/games/cyberpunk/cyberpunk_card.png"
+  },
+  {
+    "id": "p5r",
+    "title": "Persona 5 Royal",
+    "image": "images/games/persona5royal/p5r_card.png"
+  },
+  {
+    "id": "temple_of_wishes",
+    "title": "Temple of Wishes",
+    "image": "images/temple_of_wishes_card.png"
+  }
+]

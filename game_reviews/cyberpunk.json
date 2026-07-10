@@ -1,0 +1,33 @@
+{
+  "id": "cyberpunk",
+  "title": "Cyberpunk 2077",
+  "subtitle": "This generation's most misunderstood game",
+  "scoreWord": "Masterpiece",
+  "scoreNumber": 96,
+  "summary": {
+    "good": [
+      "Gorgeous Visuals",
+      "Gripping and immersive storyline",
+      "Excellent depth of combat and customisation",
+      "Vast, detailed open world, one of the best out there",
+      "Unbelievably fire soundtrack",
+      "Great vocal performance from the lead cast"
+    ],
+    "bad": [
+      "A couple of small pacing issues",
+      "Menu navigation may take a little while to get a hang of",
+      "Minor bugs and physics glitches"
+    ],
+    "ugly": [
+      "Launch state was a disaster",
+      "Not enough Panam"
+    ]
+  },
+  "stars": [
+    { "category": "Gameplay", "rating": 4.5 },
+    { "category": "Story", "rating": 5 },
+    { "category": "Music", "rating": 5 },
+    { "category": "Visuals", "rating": 5 },
+    { "category": "Playability", "rating": 4 }
+  ]
+}

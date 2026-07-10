@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="index.html" id="navbar_logo">
+                <i class="fa-solid fa-feather-pointed"></i>
+                jack brooksbank
+            </a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="index.html" class="navbar_links">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links">Movie Reviews</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="game_review_list.html" class="navbar_links">Game Reviews</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="projects.html" class="button">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Review Section -->
+
+
+    <!--
+    Score Breakdown:
+    0-5 - Oh my GOD
+    6-10 - Abysmal
+    11-19 - Atrocious
+    20-29 - Horrendous
+    30-39 - Terrible
+    40-49 - Bad
+    50-59 - Okay
+    60-69 - Good
+    70-79 - Great
+    80-89 - Incredible
+    90-94 - Phenomenal
+    95-98 - Masterpiece
+    99 - Unparalleled
+    100 - Perfection  
+    -->
+    
+    <div class="review_wrapper">
+        <article class="review_article">
+        
+            <header class="review_header">
+                <h1 class="game_title"></h1>
+                <h3 class="game_subtitle"></h3>
+                <div class="splitter_line main_splitter"></div>
+            </header>
+
+            <div class="review_content" id="markdown-injector-zone"></div>
+
+            <div class="summary_box" id="summary-box">
+                <div class="summary_col">
+                    <h3 class="title_good">The Good</h3>
+                    <ul id="list-good"></ul>
+                </div>
+                <div class="summary_col">
+                    <h3 class="title_bad">The Bad</h3>
+                    <ul id="list-bad"></ul>
+                </div>
+                <div class="summary_col">
+                    <h3 class="title_ugly">The Ugly</h3>
+                    <ul id="list-ugly"></ul>
+                </div>
+            </div>
+
+            <div class="score_container">
+                <h1 class="score_word">???</h1>
+                <div class="score_circle">
+                    <span class="score_number" data-target="95">0</span>%
+                </div>
+            </div>
+
+            <div class="star_breakdown" id="star-injector-zone">
+                <div class="star_row">
+                    <span class="category">Graphics</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="star_row">
+                    <span class="category">Music</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="star_row">
+                    <span class="category">Playability</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="star_row">
+                    <span class="category">Story</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="star_row">
+                    <span class="category">Gameplay</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </div>
+    
+
+
+
+     <!-- Footer Section -->
+      <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link-wrapper">
+                <div class="footer_link-items">
+                </div>
+                <div class="footer_link-items">
+                </div>
+            </div>
+            <div class="footer_link-wrapper">
+                <div class="footer_link-items">
+                </div>
+                <div class="footer_link-items">
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media-wrap">
+                <div class="footer_logo">
+                    <a href="/" id="footer_logo">
+                        <i class="fa-solid fa-feather-pointed"></i>
+                        jack brooksbank
+                    </a>
+                </div>
+                <p class="website_rights">Jack Brooksbank © 2026 (not offically, but like... you know)</p>
+                <div class="social_icons">
+                    <a href="https://www.instagram.com/jack.brbnk/" class="social_icon-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@pigeon_s" class="social_icon-link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://github.com/jack-bbnk" class="social_icon-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://pigeon-s.itch.io/" class="social_icon-link" target="_blank">
+                        <i class="fab fa-itch-io"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+    
+      <!-- Lightbox Section (Expanding Images)-->
+    <div class="lightbox_modal" id="lightbox">
+        <button class="lightbox_close"><i class="fas fa-times"></i></button>
+
+        <div class="lightbox_counter" id="lb_counter">1 / 2</div>
+
+        <div class="lightbox_content">
+            <button class="lightbox_btn lb_left"><i class="fas fa-chevron-left"></i></button>
+            <img src="" alt="Expanded Game Screenshot" class="lightbox_img" id="lb_img">
+            <button class="lightbox_btn lb_right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
+    <script src="app.js"></script>
+    <script src="game_review_code.js"></script>
+</body>
+</html>

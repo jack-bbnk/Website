@@ -1,0 +1,35 @@
+{
+  "id": "p5r",
+  "title": "Persona 5 Royal",
+  "subtitle": "oh my god",
+  "scoreWord": "Unparalleled",
+  "scoreNumber": 99,
+  "summary": {
+    "good": [
+      "Stunning Visual Style",
+      "Surprisingly deep and engaging story",
+      "Creative and unique turn based combat",
+      "Oozes style and personality",
+      "Stellar soundtrack",
+      "Standout cast of characters with phenomenal voice acting",
+      "Will keep you going for a LONG time",
+      "Makoto Niijima"
+    ],
+    "bad": [
+      "Rare pacing stutters",
+      "The grind may not appeal to everyone"
+    ],
+    "ugly": [
+      "Some cringe worthy, fanservice-y moments that I wasn't a fan of",
+      "Needs more Makoto Niijima",
+      "The game ended"
+    ]
+  },
+  "stars": [
+    { "category": "Gameplay", "rating": 5 },
+    { "category": "Story", "rating": 5 },
+    { "category": "Music", "rating": 5 },
+    { "category": "Visuals", "rating": 5 },
+    { "category": "Playability", "rating": 5 }
+  ]
+}
