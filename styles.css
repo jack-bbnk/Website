@@ -1109,3 +1109,136 @@
         width: 300px;
     }
 }
+
+
+/* Audio Visualiser Section */
+
+#wave-canvas {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 200px;
+    z-index: 100;
+    pointer-events: none;
+}
+
+#audio-player {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 101;
+}
+
+.custom-controls-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 102;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.audio-panel {
+    background: rgba(19, 19, 19, 0.85);
+    border: 1px solid #00C6FF;
+    border-radius: 8px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    transition: all 0.3s ease;
+    transform-origin: bottom;
+}
+
+
+
+/* For JS to use to hide the panel when toggled */
+.panel-hidden {
+    opacity: 0;
+    transform: scaleY(0);
+    pointer-events: none;
+}
+
+.control-btn, .toggle-arrow {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.control-btn:hover, .toggle-arrow:hover {
+    color: #00C6FF;
+}
+
+#volume-slider {
+    width: 80px; /* Because we rotate it, this is now its visual height! */
+    height: 4px;
+    transform: rotate(-90deg);
+    margin: 40px 0; /* Gives it vertical breathing room inside the panel */
+    cursor: pointer;
+}
+
+.now-playing-banner {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    /*background: rgba(19, 19, 19, 0.9); */
+    color: #fff;
+    padding: 15px 25px;
+    /*border: 1px solid #00C6FF; */
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    font-size: 1.1rem;
+    z-index: 999;
+
+    transform: translateX(-100%);
+    opacity: 0; 
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .now-playing-banner {
+        font-size: 1rem;
+        padding: 10px 20px;
+        background: rgba(19, 19, 19, 0.9);
+    }
+}
+
+/* Might be an idea to get rid of this if the style doesnt match?
+Just makes the music icon the cyan colour */
+.now-playing-banner i {
+    color: #00C6FF;
+    margin-right: 10px;
+}
+
+.slide-animation {
+    animation: slideAcross 6s ease-in-out forwards;
+}
+
+@keyframes slideAcross {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    15% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    90% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(20vw);
+        opacity: 0;
+        z-index: 101;
+    }
+}

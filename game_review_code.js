@@ -1,6 +1,7 @@
 //Initialising
 const urlParams = new URLSearchParams(window.location.search);
 const gameId = urlParams.get('game'); 
+const audioSource = document.getElementById('audio-player');
 
 async function loadReviewData() {
 
@@ -19,6 +20,15 @@ async function loadReviewData() {
         document.querySelector('.game_title').innerText = gameData.title;
         document.querySelector('.game_subtitle').innerText = gameData.subtitle;
         document.querySelector('.score_word').innerText = gameData.scoreWord;
+
+        if (gameData.songTitle) {
+            document.getElementById('song-title-display').innerText = `Now Playing: ${gameData.songTitle}`;
+        }
+        else{
+            document.getElementById('song-title-display').innerText = "No song for this page!";  
+        }
+
+        audioSource.src = `audio/${gameId}.mp3`;
         
         document.querySelector('.score_number').setAttribute('data-target', gameData.scoreNumber);
 

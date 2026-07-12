@@ -150,6 +150,28 @@
 
         </article>
     </div>
+
+    <audio id="audio-player" loop></audio>
+
+    <div class="custom-controls-wrapper">
+        <div id="audio-panel" class="audio-panel panel-hidden">
+            <button id="play-pause-btn" class="control-btn">
+                <i class="fas fa-play"></i>
+            </button>
+
+            <input type="range" id="volume-slider" class="volume-slider" value="0" min="0" max="1" step="0.01" value="0.1">
+        </div>
+
+        <button id="toggle-arrow" class="toggle-arrow">
+            <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <div id="now-playing" class="now-playing-banner">
+        <i class="fas fa-music"></i>
+        <span id="song-title-display">Now Playing: Loading...</span>
+    </div>
+
+    <canvas id="wave-canvas"></canvas>
     
 
 
@@ -213,6 +235,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
+    <script src="visualiser_code.js"></script> 
     <script src="app.js"></script>
     <script src="game_review_code.js"></script>
 </body>

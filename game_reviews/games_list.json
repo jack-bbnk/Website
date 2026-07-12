@@ -10,6 +10,11 @@
     "image": "images/games/persona5royal/p5r_card.png"
   },
   {
+    "id": "p3r",
+    "title": "Persona 3 Reload",
+    "image": "images/games/persona3reload/p3r_card.png"
+  },
+  {
     "id": "temple_of_wishes",
     "title": "Temple of Wishes",
     "image": "images/temple_of_wishes_card.png"

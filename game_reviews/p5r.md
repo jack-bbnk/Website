@@ -1,6 +1,4 @@
-*[Note: The formatting of this review is slightly off. I need to resolve this later.]*
-
- slept on Persona 5 (Royal) for way too long. Admittedly, at the time, I only had a Nintendo Switch, so my first playthrough of the game was on there back in 2022. I’ve played the game through three times now, my most recent one being on PS5, in which I finally achieved 100% completion of the game – perhaps the first Persona fan to play their own games: definitely beating the larper allegations.
+I slept on Persona 5 (Royal) for way too long. Admittedly, at the time, I only had a Nintendo Switch, so my first playthrough of the game was on there back in 2022. I’ve played the game through three times now, my most recent one being on PS5, in which I finally achieved 100% completion of the game – perhaps the first Persona fan to play their own games: definitely beating the larper allegations.
 
 ## A Masterpiece Narrative
 ---
@@ -53,22 +51,7 @@ In terms of the design for each Palace, as well as Mementos, is concerned – mo
 ## Don't Forget the Soundtrack
 ---
 
-Even if you haven’t played Persona 5 or Royal, chances are you’ve probably heard some of its music, even if you haven’t realised it. This game’s soundtrack is straight FIRE. It is by far and away one of, if not the greatest of all time. Even the songs that are low key and playing in simpler, less important sections of the game are amazing. But when it needs to, this game goes all out and does not hold back. It has fantastic vibes and gets you grooving even while you’re getting your backside handed to you by a particularly vicious enemy. Like I could list ten songs that are amazing from this game and still have so many more I could mention. In fact I’ll do that right now
-
-    1.	Hoshi To Bokura To
-    2.	Colours Flying High
-    3.	Whims of Fate
-    4.	Ideal and the Real
-    5.	Beneath the Mask
-    6.	Tokyo Daylight
-    7.	Last Surprise
-    8.	Life will Change
-    9.	Wake Up, Get Up, Get Out There
-    10.	Throw Away Your Mask
-
-
-
-And I could keep going… The soundtrack is so fitting for the game’s vibes and heightens all levels of enjoyment. I just LOVE it, peak music there.
+Even if you haven’t played Persona 5 or Royal, chances are you’ve probably heard some of its music, even if you haven’t realised it. This game’s soundtrack is straight FIRE. It is by far and away one of, if not the greatest of all time. Even the songs that are low key and playing in simpler, less important sections of the game are amazing. But when it needs to, this game goes all out and does not hold back. It has fantastic vibes and gets you grooving even while you’re getting your backside handed to you by a particularly vicious enemy. Songs like *Life Will Change*, *Last Surprise*, *Colors Flying High*, *Whims of Fate*, *Ideal and the Real* and *Hoshi To Bokura To* all still stick with me to this day, and are genuinely parts of some of my playlists. The soundtrack is so fitting for the game’s vibes and heightens all levels of enjoyment. I just LOVE it, peak music there.
 
 
 ## Verdict

@@ -1,0 +1,26 @@
+{
+  "id": "p3r",
+  "title": "Persona 3 Reload",
+  "subtitle": "Memento Mori",
+  "songTitle": "Full Moon Full Life",
+  "scoreWord": "N/A",
+  "scoreNumber": 0,
+  "summary": {
+    "good": [
+
+    ],
+    "bad": [
+
+    ],
+    "ugly": [
+
+    ]
+  },
+  "stars": [
+    { "category": "Gameplay", "rating": 0 },
+    { "category": "Story", "rating": 0 },
+    { "category": "Music", "rating": 0 },
+    { "category": "Visuals", "rating": 0 },
+    { "category": "Playability", "rating": 0 }
+  ]
+}
