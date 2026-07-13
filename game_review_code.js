@@ -25,7 +25,8 @@ async function loadReviewData() {
             document.getElementById('song-title-display').innerText = `Now Playing: ${gameData.songTitle}`;
         }
         else{
-            document.getElementById('song-title-display').innerText = "No song for this page!";  
+            document.getElementById('song-title-display').innerText = "No song for this page!"; 
+            document.querySelector('.custom-controls-wrapper').style.display = "none"; 
         }
 
         audioSource.src = `audio/${gameId}.mp3`;

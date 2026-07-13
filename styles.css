@@ -628,14 +628,14 @@
     font-size: 1.1rem;
 }
 
-.game_title {
+.game_title, .movie_title {
     font-size: 3.5rem;
     color: #fff;
     margin-bottom: 0.5rem;
     text-align: center;
 }
 
-.game_subtitle {
+.game_subtitle, .movie_subtitle {
     font-size: 1.2rem;
     color: #A0AABF;
     font-weight: 500;
@@ -1240,5 +1240,56 @@ Just makes the music icon the cyan colour */
         transform: translateX(20vw);
         opacity: 0;
         z-index: 101;
+    }
+}
+
+
+/* --- Movie Review Section --- */
+
+.movie_score_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+.movie_score_word {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.5s ease-out;
+}
+
+.movie-word-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.movie_stars_wrapper {
+    display: flex;
+    gap: 10px;
+    font-size: 3rem;
+    color: #00C6FF;
+}
+
+.movie-star-icon {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.star-animate {
+    animation: slideFadeIn 0.5s ease-out forwards;
+}
+
+@keyframes slideFadeIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

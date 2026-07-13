@@ -1,0 +1,1 @@
+This film teaches you to treat all living beings equally except insects

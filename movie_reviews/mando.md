@@ -1,0 +1,1 @@
+This film was literally just three episodes of The Mandalorian put together and I would have been happy if it ended after the first

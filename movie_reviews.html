@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List of Reviews</title>
+    <title>Review</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,15 +41,59 @@
         </div>
     </nav>
 
-    <!-- Game List Section-->
-     <div class="games">
-        <h1>Video Game Reviews</h1>
-        <p> Want to read my thoughts on games? Be my guest... </p>
+    <!-- Review Section -->
 
-        <input type="text" id="game_search" class="search_bar" placeholder="Search games...">
 
-        <div class="games_container"></div>
-     </div>
+    <!--
+    Score Breakdown:
+    ...
+    -->
+    
+    <div class="review_wrapper">
+        <article class="review_article">
+        
+            <header class="review_header">
+                <h1 class="movie_title"></h1>
+                <h3 class="movie_subtitle"></h3>
+                <div class="splitter_line main_splitter"></div>
+            </header>
+
+            <div class="review_content" id="markdown-injector-zone"></div>
+
+            <div class="movie_score_container">
+                <h2 class="movie_score_word">Loading...</h2>
+
+                <div id="movie-stars-zone" class="movie_stars_wrapper">
+                    </div>
+            </div>
+
+        </article>
+    </div>
+
+    <audio id="audio-player" loop></audio>
+
+    <div class="custom-controls-wrapper">
+        <div id="audio-panel" class="audio-panel panel-hidden">
+            <button id="play-pause-btn" class="control-btn">
+                <i class="fas fa-play"></i>
+            </button>
+
+            <input type="range" id="volume-slider" class="volume-slider" value="0" min="0" max="1" step="0.01" value="0.1">
+        </div>
+
+        <button id="toggle-arrow" class="toggle-arrow">
+            <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <div id="now-playing" class="now-playing-banner">
+        <i class="fas fa-music"></i>
+        <span id="song-title-display">No Music Playing</span>
+    </div>
+
+    <canvas id="wave-canvas"></canvas>
+    
+
+
 
      <!-- Footer Section -->
       <div class="footer_container">
@@ -93,8 +137,25 @@
             </div>
         </div>
       </div>
-      
-    <script src="game_review_hub.js"></script>
+
+
+    
+      <!-- Lightbox Section (Expanding Images)-->
+    <div class="lightbox_modal" id="lightbox">
+        <button class="lightbox_close"><i class="fas fa-times"></i></button>
+
+        <div class="lightbox_counter" id="lb_counter">1 / 2</div>
+
+        <div class="lightbox_content">
+            <button class="lightbox_btn lb_left"><i class="fas fa-chevron-left"></i></button>
+            <img src="" alt="Expanded Game Screenshot" class="lightbox_img" id="lb_img">
+            <button class="lightbox_btn lb_right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
+    <script src="visualiser_code.js"></script> 
     <script src="app.js"></script>
+    <script src="movie_review_code.js"></script>
 </body>
 </html>

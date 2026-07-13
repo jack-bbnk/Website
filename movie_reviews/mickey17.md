@@ -1,0 +1,1 @@
+Robert Pattinson continuing to prove he is actually one of the better actors of this generation after the trainwreck of Twilight
