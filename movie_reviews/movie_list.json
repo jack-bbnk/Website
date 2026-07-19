@@ -1,8 +1,13 @@
 [
   {
-    "id": "honeydont",
-    "title": "Honey Don't!",
-    "image": "images/movies/honeydont_card.png"
+    "id": "bluff",
+    "title": "The Bluff",
+    "image": "images/movies/bluff_card.png"
+  },
+  {
+    "id": "anaconda",
+    "title": "Anaconda (2026)",
+    "image": "images/movies/anaconda_card.png"
   },
   {
     "id": "sheepdetectives",
@@ -33,5 +38,10 @@
     "id": "mando",
     "title": "The Mandalorian and Grogu",
     "image": "images/movies/mando_card.png"
-  }
+  },
+  {
+    "id": "honeydont",
+    "title": "Honey Don't!",
+    "image": "images/movies/honeydont_card.png"
+  }  
 ]

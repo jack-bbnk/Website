@@ -1,0 +1,35 @@
+{
+  "id": "reVillage",
+  "title": "Resident Evil Village Mini Review",
+  "subtitle": "Nothing to be scared of",
+  "scoreWord": "Okay",
+  "scoreNumber": 63,
+  "summary": {
+    "good": [
+      "Very solid visuals",
+      "Sound design is aptly spooky",
+      "Some great vocal performances",
+      "Memorable character designs",
+      "Castle Dimitrescu is a well designed area",
+      "'Baby' segment is among the best in the franchise"
+    ],
+    "bad": [
+      "Story feels a little underdeveloped, with weak payoff",
+      "Gunplay feels impactless",
+      "Not nearly 'scary' enough (or at all, for that matter)",
+      "Area design was largely uninteresting"
+    ],
+    "ugly": [
+      "Factory segment was awful to play through",
+      "SO much yellow paint",
+      "Castle Dimitrescu was the highlight, and it never reached its true potential"
+    ]
+  },
+  "stars": [
+    { "category": "Gameplay", "rating": 3 },
+    { "category": "Story", "rating": 3 },
+    { "category": "Music", "rating": 2.5 },
+    { "category": "Visuals", "rating": 4 },
+    { "category": "Playability", "rating": 4 }
+  ]
+}
